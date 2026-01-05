@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: black;
+  color: whitesmoke;
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-inline: 20px;
+  font-size: large;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  padding-inline: 20px;
+  align-items: center;
+}
+
+/* Custom Cards */
+.navLink-container {
+  display: flex;
+  gap: 80;
+  list-style: none;
+}
+
+.resCard-container {
+  border-radius: 10px;
+  padding: 6px;
+  width: 200px;
+  background-color: rgb(46, 48, 49);
+}
+.resCard-container:hover {
+  border: 1px solid rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.res-img {
+  background-size: contain;
+  width: 100%;
+  border-radius: 10px;
+}
+
+#resText-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-inline: 5px;
+}
+
+#res-name {
+  margin-block: 10px 15px;
+}
+
+.body-container {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-items: center;
+}
+.filterAndSearch {
+  margin-block: 10px;
+  display: flex;
+  gap: 0.8rem;
+}
+
+.filter,
+.remove-filter {
+  padding: 4px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.res-compContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
