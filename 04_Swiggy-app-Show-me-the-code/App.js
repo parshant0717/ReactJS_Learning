@@ -46,7 +46,6 @@ const Header = () => {
 const RestaurentCards = ({ data }) => {
   const { cloudinaryImageId, name, cuisines, avgRating, costForTwo, sla } =
     data;
-  console.log(data);
 
   return (
     <div className="resCard-container">
