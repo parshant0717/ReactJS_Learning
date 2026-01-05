@@ -44,13 +44,16 @@ const Header = () => {
 };
 // name, avgRating, cuisines
 const RestaurentCards = ({ data }) => {
-  const { name, cuisines, avgRating, costForTwo, sla } = data;
-  console.log(data.name);
+  const { cloudinaryImageId, name, cuisines, avgRating, costForTwo, sla } =
+    data;
 
   return (
     <div className="resCard-container">
       <img
-        src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_308,c_fill/c627e55c996978a070c10079ae57f706"
+        src={
+          `https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_308,c_fill/` +
+          cloudinaryImageId
+        }
         alt="img"
         className="res-img"
       />
