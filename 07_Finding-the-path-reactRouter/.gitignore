@@ -1,0 +1,7 @@
+# dependencies
+/node_modules 
+
+# Dev Builds
+/dist
+.parcel-cache
+  
