@@ -1,0 +1,83 @@
+.resMenu-container {
+  margin: auto;
+  width: 70%;
+}
+.resInfo-container {
+  margin: 32px 0px;
+}
+
+.resInfo {
+  margin: 32px 8px;
+  padding: 32px;
+  border-radius: 10px;
+  box-shadow: 10px 15px 26px rgb(145, 143, 143);
+}
+.resInfo h3 {
+  margin-bottom: 12px;
+}
+
+.res-cusines {
+  margin-bottom: 8px;
+  font-weight: bolder;
+  font-size: 0.85rem;
+  color: #ff5200;
+  text-decoration: underline;
+}
+.outlet-details {
+  margin-bottom: 4px;
+  font-weight: bold;
+  font-size: 0.85rem;
+}
+.outlet-address {
+  color: slategray;
+  margin-left: 8px;
+  font-weight: normal;
+}
+
+.menu-heading {
+  font-size: x-large;
+  text-align: center;
+  margin: 16px 0;
+}
+
+.search-filter {
+  margin-bottom: 32px;
+}
+
+#search-bar {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+  border: none;
+}
+
+.toggle-filters {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  gap: 12px;
+  margin: 16px;
+}
+
+.toggle-filter-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+
+.toggle-filter-container label,
+input {
+  cursor: pointer;
+}
+
+.menu-dish-container {
+  padding: 32px;
+}
+
+.dish-not-found {
+  font-size: medium;
+  margin-block: 32px;
+  text-align: center;
+}
