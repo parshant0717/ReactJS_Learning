@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
 import { DISH_IMG } from "../../utils/constant";
-import CartContext from "../../utils/cartContext";
+import CartContext from "../../utils/CartContext";
 import RestaurantContext from "../../utils/RestaurantContext";
 import { useParams } from "react-router";
 
