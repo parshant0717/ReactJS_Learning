@@ -2,7 +2,7 @@ import { Link, NavLink } from "react-router";
 import useOnlineStatus from "../../utils/useOnlineStatus";
 import logo from "url:../../assets/companyLogo.png";
 import { useContext } from "react";
-import CartContext from "../../utils/cartContext";
+import CartContext from "../../utils/CartContext";
 
 const Header = () => {
   const onlineStatus = useOnlineStatus();
