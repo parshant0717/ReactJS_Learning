@@ -8,7 +8,7 @@ import Error from "./src/components/commn_components/Error";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router";
 import { lazy, Suspense, useState } from "react";
 import Shimmer from "./src/components/commn_components/Shimmer";
-import CartContext from "./src/utils/cartContext";
+import CartContext from "./src/utils/CartContext";
 import RestaurantContext from "./src/utils/RestaurantContext";
 
 const InstaMart = lazy(
