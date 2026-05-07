@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router";
-import styles from "./RestaurantMenu.module.css";
+import * as styles from "./RestaurantMenu.module.css";
 import MenuCard from "../commn_components/MenuCard";
 import Shimmer from "../commn_components/Shimmer";
 import useRestaurantMenu from "../../utils/useRestaurantMenu";
@@ -96,7 +96,7 @@ const RestaurantMenu = () => {
         </div>
       </div>
       <h3 className={styles["menu-heading"]}>Menu</h3>
-      <div className={styles["resMenu-custom-filters"]}>
+      <div>
         <div className={styles["search-filter"]}>
           <input
             type="text"
