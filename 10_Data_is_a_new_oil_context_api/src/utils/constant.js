@@ -8,3 +8,8 @@ export const MENU_API_URL = "/api/menu/";
 // "https://proxy.corsfix.com/?https://www.swiggy.com/mapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=22.56430&lng=88.36930&restaurantId=";
 
 export const GIT_API = "https://api.github.com/users/parshant0717";
+
+export const shimmer_card_unit = 20;
+
+// shimmer Menu card unit
+export const shimmer_menu_card_unit = 4;

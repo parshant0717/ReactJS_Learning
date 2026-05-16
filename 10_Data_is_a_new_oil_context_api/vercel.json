@@ -8,6 +8,10 @@
     {
       "source": "/api/menu/:id",
       "destination": "https://www.swiggy.com/mapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=22.56430&lng=88.36930&restaurantId=:id"
+    },
+    {
+      "source": "/([^.]+)",
+      "destination": "/"
     }
   ]
 }
