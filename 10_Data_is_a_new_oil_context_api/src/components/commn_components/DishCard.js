@@ -8,8 +8,6 @@ const DishCard = ({ itemsData }) => {
   const { id, name, price, defaultPrice, ratings, description, imageId } =
     itemsData;
 
-  console.log(name);
-
   const { resId } = useParams();
   const [isExpanded, setIsExpanded] = useState(false);
   const { cartItem, setCartItem } = useContext(CartContext);

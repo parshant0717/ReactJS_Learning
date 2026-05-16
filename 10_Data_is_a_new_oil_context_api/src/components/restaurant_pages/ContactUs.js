@@ -1,7 +1,7 @@
 const ContactUs = () => {
   return (
     <div className="pageDecor">
-      <h1>This is Contact us page!</h1>
+      <h1 className="font-bold">This is Contact us page!</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt,
         laudantium fugit neque maiores id debitis fuga et, impedit nostrum
