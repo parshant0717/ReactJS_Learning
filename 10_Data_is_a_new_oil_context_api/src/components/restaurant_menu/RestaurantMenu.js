@@ -15,7 +15,6 @@ const RestaurantMenu = () => {
   const [showIndex, setShowIndex] = useState(null);
 
   const { resInfo, menuDetails } = useRestaurantMenu(resId);
-  console.log(menuDetails);
 
   const handleFilter = () => {
     if (!isVeg && !isNonVeg && searchText === " ") {
