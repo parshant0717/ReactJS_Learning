@@ -1,0 +1,13 @@
+{
+  "devCommand": "npm run start",
+  "rewrites": [
+    {
+      "source": "/api/main",
+      "destination": "https://www.swiggy.com/dapi/restaurants/list/v5?offset=0&is-seo-homepage-enabled=true&lat=22.56430&lng=88.36930&carousel=true&third_party_vendor=1"
+    },
+    {
+      "source": "/api/menu/:id",
+      "destination": "https://www.swiggy.com/mapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=22.56430&lng=88.36930&restaurantId=:id"
+    }
+  ]
+}
